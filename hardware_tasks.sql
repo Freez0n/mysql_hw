@@ -9,7 +9,7 @@ WHERE title like 'Монитор%';
 -- 4
 SELECT title FROM db_422d44.hardware
 where title like 'Клавиатура%'
-order by price;
+order by price asc;
 -- 5
 SELECT tag, count(*) FROM db_422d44.hardware
 WHERE tag IS NOT NULL
